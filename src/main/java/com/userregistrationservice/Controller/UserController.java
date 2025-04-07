@@ -25,7 +25,7 @@ import com.userregistrationservice.ServiceImpl.UserServiceImpl;
 @RestController
 @CrossOrigin
 @RequestMapping("/user")
-public class UserController {
+public class UserController { 
 	
 	@Autowired
 	private UserServiceImpl userServiceImpl;
